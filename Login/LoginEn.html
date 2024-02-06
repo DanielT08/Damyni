@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css" />
+    <link rel="shortcut icon" href="img/3.jpeg" type="image/x-icon" />
+  </head>
+
+  <body>
+    <header>
+      <div class="logo_corpo">
+        <img height="200px" src="img/logo.png" alt="" />
+      </div>
+      <section></section>
+      <nav class="navigation">
+        <a href="#home">home</a>
+        <a href="#contact">contact</a>
+        <a href="#"></a>
+        <span class="en">Spanish</span>
+        <input type="checkbox" class="check" checked />
+        <span class="es">English</span>
+      </nav>
+    </header>
+    <div class="log active-popup" id="home">
+      <div class="form-box login">
+        <h2>Login</h2>
+        <form action="#">
+          <div id="verification"></div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input id="emailEn" type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input id="passwordEn" type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remenver-forgot">
+            <label><input type="checkbox" /> Remenber me</label>
+            <a href="#">¿Forgot Password?</a>
+          </div>
+          <button onclick="redireccionar7()" type="submit" class="btn">Login</button>
+          <div class="login-register">
+            <p>
+              Don't have an account?
+              <a href="#" class="register-link">Register</a>
+            </p>
+          </div>
+        </form>
+      </div>
+      <div class="form-box register">
+        <h2>Registration</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><ion-icon name="person"></ion-icon></span>
+            <input id="nameRegEn" type="text" required />
+            <label>Username</label>
+          </div>
+          <div class="input-box">
+            <input id="birthdateRegEn" type="date" required />
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="transgender-outline"></ion-icon></span>
+            <select class="form-control" name="" id="genderRegEn">
+              <option value="Male">Male</option>
+              <option value="Female">Female</option>
+              <option value="Other">Other</option>
+            </select>
+            <label>Gender</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="mail"></ion-icon></span>
+            <input id="emailRegEn" type="email" required />
+            <label>Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+            <input id="passwordRegEn" type="password" required />
+            <label>Password</label>
+          </div>
+          <div class="remenver-forgot">
+            <label><input type="checkbox" /> I agree to the terms & conditions</label>
+          </div>
+          <button onclick="redireccionar8()" type="submit" class="btn">Register</button>
+          <div class="login-register">
+            <p>
+              Already have an account?
+              <a href="#" class="login-link">Login</a>
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Aqui va el footer--->
+    <footer class="pie-pagina" id="contact">
+      <div class="grupo-1">
+        <div class="box">
+          <h2>about us</h2>
+          <ul>
+            <li>Cl. 16 #55-129, Guayabal, Medellín, Guayabal, Medellín, Antioquia</li>
+            <li><a href="tel:+573239833320">Contactanos por llamada</a></li>
+            <li>
+              <a class="" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank"
+                >Viajacondamyni@gmail.com</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="box">
+          <h2>LEGAL NOTICES</h2>
+          <u1>
+            <li>Terms and conditions</li>
+            <li>Liability Clauses</li>
+            <li>Data protection policy</li>
+            <li>Frequently Asked Questions Online Payments</li>
+            <li>
+              <a
+                class="eva-3-link"
+                style="color: white"
+                href="https://maps.app.goo.gl/ashCccpG5K55Py4b7"
+                target="_blank"
+                >Sitemap</a
+              >
+            </li>
+          </u1>
+        </div>
+        <div class="box">
+          <h2>FOLLOW US</h2>
+          <div class="red-social">
+            <a href="https://www.facebook.com/profile.php?id=61555780504395" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com/viajacondamyni/" target="_blank" class="fa fa-instagram"></a>
+            <a
+              href="https://api.whatsapp.com/send/?phone=3239833320&text&type=phone_number&app_absent=0"
+              target="_blank"
+              class="fa fa-whatsapp"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo-2">
+        <small>&copy; 2024 <b>viajacondamyni</b> - All Rights Reserved..</small>
+      </div>
+    </footer>
+    <script src="Login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/fa31c593cb.js" crossorigin="anonymous"></script>
+  </body>
+</html>

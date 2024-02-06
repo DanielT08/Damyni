@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "87e6",
+      "name": "Juan",
+      "email": "juan123@gmail.com",
+      "password": "juan123"
+    },
+    {
+      "id": "c6d3",
+      "name": "daniel",
+      "email": "daniel@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "f9c8",
+      "name": "zurani mendoza",
+      "email": "zuranimendoza@gmail.com",
+      "password": "zurani"
+    },
+    {
+      "id": "26cb",
+      "name": "Juan David",
+      "birthdate": "2005-07-12",
+      "gender": "Male",
+      "email": "juanda@gmail.com",
+      "password": "juanda123"
+    },
+    {
+      "id": "87e0",
+      "name": "nicolas",
+      "birthdate": "2003-10-31",
+      "gender": "Male",
+      "email": "niko@gmail.com",
+      "password": "niko123"
+    },
+    {
+      "id": "54aa",
+      "name": "rodolfo",
+      "birthdate": "2024-01-31",
+      "gender": "Female",
+      "email": "rodolfo123@gmail.com",
+      "password": "rodolfo123"
+    },
+    {
+      "id": "c366",
+      "name": "robinson",
+      "birthdate": "2024-02-03",
+      "gender": "Male",
+      "email": "robinson123@gmail.com",
+      "password": "robinson123"
+    },
+    {
+      "id": "74b1",
+      "name": "Daniel",
+      "birthdate": "2024-02-05",
+      "gender": "Male",
+      "email": "daniel@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "9655",
+      "name": "samuel",
+      "birthdate": "2020-01-01",
+      "gender": "Male",
+      "email": "samuel@gmail.com",
+      "password": "12345"
+    }
+  ]
+}

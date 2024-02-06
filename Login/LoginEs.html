@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="Login.css">
+    <link rel="shortcut icon" href="img/3.jpeg" type="image/x-icon">
+    
+</head>
+
+<body>
+    <header>
+    
+        <div class="logo_corpo">
+            <img height="200px" src="img/logo.png" alt="">
+        </div>
+        <section>
+        </section>
+            <nav class="navigation">
+                <a href="#inicio">Inicio</a>
+                <a href="#contacto">Contactos</a>
+                <a href="#"></a>
+                <span class="en">Español</span>
+                <input type="checkbox" class="check">
+                <span class="es">Ingles</span>
+            </nav>
+    </header>
+        <div class="log active-popup" id="inicio">
+            <div class="form-box login">
+                <h2>Iniciar sesion</h2>
+                <form action="#">
+                    <div id="verification"></div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input id="emailEs" type="email" required>
+                        <label>Correo</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input id="passwordEs" type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="remenver-forgot">
+                        <label><input type="checkbox">
+                          Me recuerdas</label>
+                        <a href="#">¿Has olvidado tu contraseña?</a>
+                    </div>
+                    <button onclick="redireccionar9()" type="submit" class="btn">Iniciar Sesion</button>
+                    <div class="login-register">
+                        <p>No tienes una cuenta?
+                            <a href="#" class="register-link">Registrarse</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+            <div class="form-box register">
+                <h2>Registro</h2>
+                <form action="#">
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="person"></ion-icon></span>
+                        <input id="nameRegEs" type="text" required>
+                        <label>Nombre</label>
+                    </div>
+                    <div class="input-box">
+                        <input id="birthdateRegEs" type="date" required>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="transgender-outline"></ion-icon></span>
+                        <select class="form-control" name="" id="genderRegEs">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <label>Género</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="mail"></ion-icon></span>
+                        <input id="emailRegEs" type="email" required>
+                        <label>Correo</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                        <input id="passwordRegEs" type="password" required>
+                        <label>Contraseña</label>
+                    </div>
+                    <div class="remenver-forgot">
+                        <label><input type="checkbox">
+                            Acepto los términos y condiciones</label>
+                    </div>
+                    <button onclick="redireccionar10()" type="submit" class="btn">Register</button>
+                    <div class="login-register">
+                        <p>¿Ya tienes una cuenta?
+                            <a href="#" class="login-link">Iniciar Sesion</a>
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer class="pie-pagina" id="contacto">
+            <div class="grupo-1">
+                <div class="box">
+                    <h2>SOBRE NOSOTROS</h2>
+                    <ul>
+                        <li>Cl. 16 #55-129, Guayabal, Medellín, Guayabal, Medellín, Antioquia</li>
+                        <li><a href="tel:+573239833320">Contactanos por llamada</a></li>
+                        <li><a class="" href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank">Viajacondamyni@gmail.com</a></li>
+                      </ul>
+               
+                </div>
+                <div class="box">
+                    <h2>AVISOS LEGALES</h2>
+                    <u1>
+                        <li>Términos y condiciones</li>
+                        <li>Cláusulas de Responsabilidad</li>
+                        <li>Pólitica de protección de datos</li>
+                        <li>Preguntas Frecuentes Pagos en línea</li>
+                        <li><a class="eva-3-link" style="color:white" href="https://maps.app.goo.gl/ashCccpG5K55Py4b7" target="_blank">Mapa del sitio</a></li>
+                    </u1>
+                </div>
+                <div class="box">
+                    <h2>SIGUENOS</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/profile.php?id=61555780504395" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/viajacondamyni/" target="_blank" class="fa fa-instagram"></a>
+                        <a href="https://api.whatsapp.com/send/?phone=3239833320&text&type=phone_number&app_absent=0" target="_blank" class="fa fa-whatsapp"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2024 <b>viajacondamyni</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+       
+    <script src="Login.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/fa31c593cb.js" crossorigin="anonymous"></script>
+</html>

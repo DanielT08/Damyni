@@ -1,0 +1,222 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 22%;
+  padding: 20px; 
+  background-color: #0d2033;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 99;
+}
+.logo_corpo{
+  margin-top: 25px;
+
+}
+
+.navigation a {
+  position: relative;
+  font-size: 1.1em;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navigation a::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  border-radius: 5px;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .5s;
+}
+.navigation a:hover::after {
+  transform-origin: left;
+  transform: scaleX(1);
+}
+
+.navigation .btnLogin-popup {
+  width: 130px;
+  height: 50px;
+  background: transparent;
+  border: 2px solid #ffff;
+  outline: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 1.1em;
+  color: #ffff;
+  font-weight: 500;
+  margin-left: 40px;
+}
+.navigation .btnLogin-popup:hover {
+  background: #fff;
+  color: #162938;
+}
+/* carta */
+.card img {
+    border-radius: 30%;
+}
+
+.card {
+    border: none;
+}
+
+.card .card-body {
+    background-color: #F5B7B1;
+    border-radius: 50px;
+}
+
+.button {
+    padding: 1em 2em;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    color: rgb(157, 206, 245);
+    transition: all 1000ms;
+    font-size: 15px;
+    position: relative;
+    overflow: hidden;
+    outline: 2px solid rgb(157, 206, 245);
+  }
+  
+  button:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+    outline: 2px solid rgb(157, 206, 245);
+    box-shadow: 4px 5px 17px -4px rgb(157, 206, 245);
+  }
+  
+  button::before {
+    content: "";
+    position: absolute;
+    left: -50px;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background-color: #F5B7B1;
+    transform: skewX(45deg);
+    z-index: -1;
+    transition: width 1000ms;
+  }
+  
+  button:hover::before {
+    width: 250%;
+  }
+   /*:::::Pie de Pagina o footer*/
+.pie-pagina{
+  width: auto;
+  margin-top: 2px;
+  background-color: #0a141d;
+  color: white;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+
+/* Aqui va la pagina*/
+.en{
+  color: white;
+}
+.es{
+  color: white;
+}
+
+.check{
+  position: relative;
+  height: 15px;
+  width: 50px;
+
+
+}
+.check::before{
+content: '';
+position: absolute;
+width: 50px;
+height: 25px;
+background: #333;
+border-radius: 25px;
+
+}
+.check:after{
+content: '';
+position: absolute;
+width: 25px;
+height: 25px;
+background: #fff;
+border-radius: 25px;
+transition: 0.25s;
+border:  2px solid #333;
+box-sizing: border-box;
+}
+.check:checked::after{
+left: 25px;
+border-radius: 2px solid #00a1ff;
+
+}
+.check:checked::before{
+
+background:  #00a1ff;
+
+}
+
+  
+  
